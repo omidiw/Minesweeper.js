@@ -1,7 +1,7 @@
 // Display/ui
 import { TILE_STATUSES, createBoard, markTile, revealTile, checkWin, checkLose } from "./mineSweeper.js"
 const BOARD_SIZE = 10
-const NUMBER_OF_MINES = 5
+const NUMBER_OF_MINES = 10
 const minesLeft = document.querySelector("[data-mine-count]")
 const board = createBoard(BOARD_SIZE, NUMBER_OF_MINES)
 const boardElement = document.querySelector(".board")
